@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bckbox">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="content__sidebar">
+        <div id="noteForm" class="note__form">
+          <h2>Add New Note</h2>
+          <input type="text" id="noteTitle" placeholder="Note Title" required />
+          <textarea id="noteDescription" placeholder="Note Content" required></textarea>
+          <button type="submit" class="addNoteBtn">Add Note</button>
+        </div>
+      </div>
+      <div class="content__notes">
+        <h2 class="notes__heading">Notes</h2>
+        <div class="notes" id="noteContainer"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
